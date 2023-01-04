@@ -3,12 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
     <title>Document</title>
 </head>
+
+
 <body>
-    
+    <main>
+        <!--este div estructura la parte izquierda de la pagina-->
+        <div class="izquierda">
+            <div class="logo">
+                <img src="imagenes/Logo.png" alt="Logo Alura">                
+            </div>
+            <div id="entradaTexto">
+                <textarea id="input" spellcheck="false" placeholder="Ingrese el texto aqui" autofocus></textarea>                
+                </div>
+                <!--la case botones lso ubuca de forma conjunta minetras de la clase boton le da forma. con el id le di los estilos-->
+                <p class="aviso">&#8505; Utilice sólo letras minúsculas y sin acentos</p>
+                <div class="botones">
+                    <button class="boton" id="botonEncriptar">Encriptar</button>
+                    <button class="boton" id="botonDesencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="derecha">   
+            <div id="textoSalida">
+                <textarea id="txtsalida" readonly></textarea>            
+                <div id="msgsalida">
+                    <img src="imagenes/Muñeco.svg">
+                    <h1>Ningún mensaje fue encontrado</h1>
+                    <p >Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>            
+                <button class="boton" id="botoncopiar" hidden="hidden">Copiar</button>
+
+            </div>
+            
+        </div>
+        </div>
+        
+
+    </main>
 
     
 </body>
+
+<script src="index.js"></script>
 </html>

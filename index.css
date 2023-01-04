@@ -1,0 +1,185 @@
+body {
+    background-color: #E5E5E5;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+}
+/*pociciona el logo*/
+.logo{
+    position: absolute;
+    height: 48px;
+    width: 120px;
+    left: 40px;
+    top: 40px;
+    border-radius: 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+}
+/*pociciona el textarea*/
+#entradaTexto{
+    position: absolute;
+    height: 48px;
+    width: 680px;
+    left: 240px;
+    top: 100px;
+    border-radius: nullpx;
+    
+
+}
+/*da estilo al textarea del input*/
+#input{
+
+    margin-top: 100px;
+    width: 100%; 
+    height: 600px; 
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    background-color: #E5E5E5;
+    border: none;
+    outline: none;
+    color: #0A3871;
+}
+
+.aviso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: relative;
+    width: 300px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+
+}
+/*da el estilo a los botones de encriptar y desencriptar*/
+.boton{
+    border-radius: 24px;
+    padding: 10px;    
+    height: 67px;
+    width: 100%;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+
+
+/*pociciona botones*/
+.botones{
+    position: absolute;
+    Width: 680px;
+    Height:Hug (67px);
+    Top: 885px;
+    Left: 240px;
+    Gap: 24px;
+    
+}
+
+.botones{
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    
+}
+
+#botoncopiar{
+    cursor: pointer;
+    position: absolute;
+    Width: 340px;
+    Height:Hug (67px);
+    Top: 833px;
+    Left: 70px;
+    Gap: 24px;
+
+
+}
+
+#botonDesencriptar{
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #F3F5FC;
+    border-color: #0A3871;
+    border-style: solid;
+    color: #0A3871;
+}
+
+#botonEncriptar{
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #0A3871;
+    border: none;
+    color: white;
+}
+
+
+
+#textoSalida{
+    position: relative;
+    height: 944px;
+    width: 400px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 32px;   
+    background-color: white;
+    padding: 32px 32px 32px 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+#txtsalida{
+    width: 80%; 
+    height: 400px; 
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    border: none;
+    outline: none;
+    color: #495057;
+}
+
+#msgsalida{
+    position: absolute;
+    height: 400px;
+    width: 80%px;
+    left: 15%;
+    top: 30%;
+    border-radius: 0px;
+    
+}
+
+#msgsalida h1{
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+    
+}
+
+#msgsalida p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057
+}
