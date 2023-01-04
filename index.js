@@ -32,7 +32,6 @@ textarea.addEventListener("keydown", function(event) {
   }
 });
 
-
 /*la funcion encriptar recorre letra por letra para convertir secun patron en entorno global*/
 function encriptar (){
     
