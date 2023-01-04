@@ -31,7 +31,6 @@ textarea.addEventListener("keydown", function(event) {
     alert("caracter no valido, solo minuscula y sin acentos")
   }
 });
-
 /*la funcion encriptar recorre letra por letra para convertir secun patron en entorno global*/
 function encriptar (){
     
