@@ -3,6 +3,7 @@ const textoResultado = document.getElementById("txtSalida");
 const btnEncriptar = document.getElementById("botonEncriptar");
 const btnDesencriptar = document.getElementById("botonDesencriptar");
 const btnCopiar = document.getElementById("botoncopiar");
+
 /* declaro patron para encriptar*/
 const patrones = {
   "e": "enter",
@@ -11,6 +12,7 @@ const patrones = {
   "a": "ai",
   "u": "ufat"
 };
+
 /* declaro patron para desencriptar*/
 const patrones2 = {
   "enter": "e",
@@ -19,9 +21,8 @@ const patrones2 = {
   "ai": "a",
   "ufat": "u"
 };
-
+/**aca controla la entrada de caracteres especiales permitiendo solo de la a a la z en minusculas sin acentos y numeros del 0 al 9 y " " */
 const textarea = document.getElementById("input");
-
 textarea.addEventListener("keydown", function(event) {
   const caracter = event.key;
 
